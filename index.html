@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoologico da Princesa</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        #ingressos {
+            padding: 12px;
+        }
+
+        footer {
+            border: 1px solid rgb(202, 202, 202);
+            margin-bottom: 12px;
+        }
+
+        footer p {
+            padding: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <h1>Zoologico da Princesa</h1>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ingressos">Ingressos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="inicio">
+        <div class="container">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/elephant-1822636_960_720 (1).jpg" alt="Elefante">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="imagens/lions-577104_960_720.jpg" alt="Familia Leao">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="imagens/dolphin-203875_960_720.jpg" alt="Golfinho">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ingressos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Ingresso Padrão
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ingresso individual, com acesso a todas as areas do Zoo, apenas R$30,00
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Ingresso Casal
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ingresso duplo, com acesso a todas as areas do Zoo, apenas R$55,00
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Ingresso Familia
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">
+                                Quatro ingressos, com acesso a todas as areas do Zoo, apenas R$100,00
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <footer>
+                <p>
+                    Rua xxxxx 999 Jardim zzzz - Sao Paulo - SP
+                </p>
+                <p>
+                    Telefone - 99999-9999 
+                </p>
+            </footer>
+        </div>
+    </section>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
